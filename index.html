@@ -21,6 +21,9 @@
 -->
 <html>
 
+    
+<body bgcolor="white">
+
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
@@ -39,36 +42,63 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title> ISI FORM INI </title>
+
 </head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h1> KARTU TANDA MAHASISWA </h1>
+ 
+    
+    <center>
+    <img alt="logo kampus" src="download.jpg" /> </center>
+<form action="finish.html" method="get">
+<center> Nama: <input type="text" name="nama" value="Nama Kamu" />
+<br />
+Jenis Kelamin :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked/>
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Perempuan
+<br />
+Alamat :
+<textarea name="komentar" rows="10" cols="20">
+Alamat anda
+</textarea>
 
-<body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
-    </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-
-
-<h3>
-Bikin Aplikasi Android..
-</h3>
-
-
-
-
-
-
-
-
+<br />
+Asal sekolah: <input type="text" name="sekolah" value="Asal Sekolah" />
+<br />
+Tempat,Tgl lahir: <input type="text" name="Tempat" value="Tempat" />
+    <input id="date" type="date">
+<br />
+<center> <form action ="upload_file.php" metode="post" enctype="multipart/form-data">
+<label for="file"> Masukan Foto: </label>
+<input type="file" name="gambar" id="gambar" />
+<br />
+</form> </center>
+<input type="submit" value="KIRIM" >
+</center>
 
 </body>
-
 </html>
+    
+        
+        
+        
+
